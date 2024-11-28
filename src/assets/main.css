@@ -1,0 +1,70 @@
+/* vars and imports */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --borderRadius: 15px;
+  --smallSpacing: 1em;
+  --largeSpacing: 2em;
+  --orange: hsl(26, 100%, 55%); 
+  --paleOrange: hsl(25, 86%, 86%);
+  --darkBlue: hsl(220, 13%, 13%);
+  --darkGrayBlue: hsl(219, 9%, 45%);
+  --grayBlue: hsl(220, 14%, 75%);
+  --lightGrayBlue: hsl(223, 64%, 98%);
+  --white: hsl(0, 0%, 100%);
+}
+
+/* reset template */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+  font-weight: normal;
+}
+
+p {
+  text-wrap: pretty; 
+  max-width: 75ch;
+  margin-bottom: 2rem;
+  line-height: 1.5rem;
+}
+
+img,
+picture,
+svg,
+video {
+  max-width: 100%;
+  display: block; 
+  height: auto; 
+}
+
+button,
+input,
+form {
+  font: inherit;
+}
+
+.centerContent {
+  max-width: 1340px;
+  margin: 0 auto;
+}
